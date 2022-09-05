@@ -1,0 +1,113 @@
+.section-produto{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.back-list{
+    position: absolute;
+    left: 5px;
+    top: -25px;
+}
+
+.back-list a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.back-list a:hover{
+    color: blue;
+}
+
+.container-produto{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.image-produto{
+    width: 300px;
+    height: 300px;
+}
+
+.image-produto img{
+    width: 100%;
+    height: 100%;
+}
+
+.info-produto{
+    text-align: justify;
+    width: 100%;
+}
+
+.info-produto h1{
+    font-size: 1.5rem;
+}
+
+.description{
+    font-size: 13px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-compra{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-compra button{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #7d2379;
+    color: #fff;
+}
+
+.btn-compra button:hover{
+    background-color: #63175f;
+}
+
+/* responsive */
+
+@media (max-width: 700px){
+    .image-produto{
+        width: 80%;
+        height: 200px;
+    }
+
+    .info-produto h1{
+        font-size: 1rem;
+    }
+
+    .description{
+        font-size: 10px;
+    }
+
+    .price{
+        font-size: 17px;
+    }
+
+    .btn-compra{
+        width: 100%;
+    }
+
+    .btn-compra button{
+        width: 40%;
+        height: 30px;
+        font-size: 10px;
+    }
+}

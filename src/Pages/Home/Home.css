@@ -1,0 +1,194 @@
+.container {
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sliders {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 25%;
+    transition: 2s;
+   
+}
+
+.slide img {
+    width: 100%;
+    height: 80%;
+}
+
+.sliders input {
+    display: none;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    display: flex;
+}
+
+.btn {
+    border: 1px solid rgb(175, 175, 175);
+    width: 1px;
+    height: 1px;
+    padding: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 1s;
+    background: rgb(175, 175, 175);
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+
+#radio1:checked~.s1 {
+    margin-left: 0%;
+}
+
+#radio2:checked~.s1 {
+    margin-left: -25%;
+}
+
+#radio3:checked~.s1 {
+    margin-left: -50%;
+}
+
+#radio4:checked~.s1 {
+    margin-left: -75%;
+}
+
+/* categories */
+
+.categories{
+   width: 100%;
+   height: 100%;
+   padding: 25px 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.info-categories h1{
+    font-size: 2rem;
+}
+
+.categories button{
+    margin-left: 8px;
+    height: 25px;
+    border: none;
+    background: black;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.categories button:hover{
+    background: #383838;
+}
+
+
+/* catalogo */
+
+.catalogo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.images-demo{
+    width: 300px;
+    height: 380px;
+    background: rgb(169, 168, 168);
+    margin-top: 25px;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.image-demo{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image-demo img{
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+    cursor: pointer;
+    
+}
+
+.image-demo img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.btn-demo{
+    width: 90%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+   
+}
+
+.btn-demo button{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn-demo button:hover{
+    background: #383838;
+}
+
+.text-demo{
+    width: 100%;
+}
+
+.text-demo p{
+    text-align: center;
+}
+
+@media (max-width: 458px){
+    .categories{
+        margin-top: -100px;
+    }
+    
+    .categories-btns{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .categories-btns button{
+        font-size: 12px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+}

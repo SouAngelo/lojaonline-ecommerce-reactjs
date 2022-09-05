@@ -1,0 +1,113 @@
+.searchbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -2px 2px 15px -1px black;
+}
+
+.logo{
+    width: 20%;
+    height: 150px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.search-input{
+    background-color: #fff;
+    width: 60%;
+    height: 50px;
+    margin-left: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.search-input input{
+    height: 47px;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.search-input input::placeholder{
+    font-size: 16px;
+}
+
+.search-input i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.car-kit{
+    width: 7%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person-login i, .car-shop{
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.car-shop a{
+    text-decoration: none;
+    color: black;
+}
+
+/* responsive */
+
+@media (max-width: 592px){
+        .logo{
+            display: none;
+        }
+
+        .search-input{
+            min-width: 200px;
+            width: 50%;
+            padding: 0 15px;
+        }
+
+        .searchbar{
+            justify-content: center;
+          ;
+        }
+
+        .car-kit{
+            margin-left: 20px;
+        }
+
+        .car-kit i{
+            margin-left: 15px;
+        }
+}
+
+@media (max-width: 334px){
+  .searchbar{
+      flex-direction: column;
+  }
+
+  .search-input{
+      margin: 0 auto;
+      margin-bottom: 15px;
+  }
+
+  .car-kit{
+      width: 50%;
+      margin: 0 auto;
+      justify-content: center;
+    
+  }
+}
