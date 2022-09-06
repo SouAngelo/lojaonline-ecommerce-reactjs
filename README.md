@@ -22,9 +22,8 @@ Esse é o meu portifólio, feito para mostrar um pouco sobre mim, minhas expêri
 ## 🧑‍💻 Tecnologias utilizadas
 <br>
 
-- HTML5
+- React Js
 - CSS3
-- JAVASCRIPT
 <br>
 
 ## Implantação em produção
