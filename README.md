@@ -9,7 +9,7 @@ Esse é o meu portifólio, feito para mostrar um pouco sobre mim, minhas expêri
 ## 📱 Layout para Celular
 <br>
 <p align='center'>
-<img width='300' height='600' src='/imgs-videos-demo/gifmobile.gif'>
+<img width='300' height='600' src='/gifs-demo/2022-09-06 11-40-21.gif'>
 </p>
 
 ## 💻 Layout para Web
