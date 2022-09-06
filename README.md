@@ -3,7 +3,7 @@
 Link do site:  https://onlineshop-projeto.netlify.app/
 
 <p>
-Esse é o meu portifólio, feito para mostrar um pouco sobre mim, minhas expêriencias, conhecimentos e projetos. 
+E-commerce, ou comércio eletrônico, é uma modalidade de negócio em que as transações comerciais são realizadas totalmente online. Desde a escolha do produto pelo cliente, até a finalização do pedido, com o pagamento, todo o processo deve ser realizado por meios digitais. 
 </p>
 
 ## 📱 Layout para Celular
@@ -15,7 +15,7 @@ Esse é o meu portifólio, feito para mostrar um pouco sobre mim, minhas expêri
 ## 💻 Layout para Web
 <br>
 <p align='center'>
-<img width='700' src='/imgs-videos-demo/gifdesktop.gif'>
+<img width='700' src='/src/gifs-demo/2022-09-06 11-40-21.gif'>
 </p>
 
 <br>
